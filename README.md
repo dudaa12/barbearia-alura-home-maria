@@ -1,66 +1,57 @@
-.cabeçalho{background-color: grey;
-padding: 20px;}
+]]<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+</head>
+<body>
 
-nav {position: absolute;
-       top: 110px;
-       right: 0;}
+    <h1><img src="logo.png" alt=""></h1>
 
-nav li{display: inline;
-                 margin: 0 0 0 15px;}
+    <ul>
+     <li <a href=" https://dudaa12.github.io/barbearia-alura-maria-eduarda/"HOME</li>
+     <li>PRODUTOS</li>
+    <li>CONTATOS</li>
 
-nav a {text-transform: uppercase;
-                color: black;
-                font-weight:bold;
-                font-size: 22px;
-                text-decoration:none ;
-    }      
+    </ul>
     
-    nav a:hover{
-         color:blue;
-    }
+    <nav>
 
-.caixa{position: relative;
-       width:940px;
-       margin: 0 auto;}
+         <div>
+             <header>
+         <main>
+              <ul class="Produtos">
+         <li>
 
-.produtos{width: 940px;
-         margin: 0 auto;}
+            <h2>cabelo</h2>
+            <img src="cabelo.jpg" alt=" ">
+            <p class="descrição">Na tesoura ou maquina, como o cliente 
+                preferir</p>
+                <p class="preço">R$25,00</p>
+            
 
-.produtos li{
+                <li>
 
-        display: inline-block;
-        text-align: center;
-        width: 30px;
-        vertical-align: top;
-        background-color: grey;
-        margin: 0 1.5%;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        border: 2px solid black;
-        border-radius: 10px;
-    }
+                <h2>Barba</h2>
+                <img src="barba.jpg" alt="">
+                <p class="descrição">corte e desenho profissionalde barba</p>
+                <p class="preço">R$18,00</p>
+            </li>
 
-.produtos li hover{
-    border-color: blue;
-}
+            <li>
 
-.produtod li:active{
-    border-color: blue;
-}
+                <h2>cabelo+barba</h2>
+                <img src="cabelo+barba.jpg" alt=""
+                <p class="descrição">pacote completo de cabelo e barba</p>
+                <p class="preço">R$35,00</p>
 
+            </li>
 
-.produtos h2{
-        font-size: 30px;
-        font-weight:bold;
-}
-.produtos-descrição {
-          font-size: 18px;
-}
-       
-.produtos-preço {
-       font-size: 22px;
-       font-weight: bold;
-       margin: 10px 0 0;
-       margin-top: 10px;
-}
+        </ul>
+         </main>
+
+        </body>
+        </html>
 
